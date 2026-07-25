@@ -3630,7 +3630,7 @@ code {
 }
 
 .cm-s-obsidian .cm-line.HyperMD-codeblock {
-  line-height: calc(var(--line-height-normal) - 0.2);
+  line-height: var(--line-height-normal);
   color: var(--code-normal) !important;
   border-inline: var(--code-border-width) solid var(--code-border-color);
   border-radius: 0 !important;
@@ -3645,13 +3645,11 @@ code {
   border-top: var(--code-border-width) solid var(--code-border-color);
   border-start-start-radius: var(--code-radius) !important;
   border-start-end-radius: var(--code-radius) !important;
-  margin-top: var(--size-2-1) !important;
 }
 .cm-s-obsidian .cm-line.HyperMD-codeblock.HyperMD-codeblock-end-bg {
   border-bottom: var(--code-border-width) solid var(--code-border-color);
   border-end-start-radius: var(--code-radius) !important;
   border-end-end-radius: var(--code-radius) !important;
-  margin-bottom: var(--size-2-1) !important;
 }
 
 .cm-hmd-codeblock .cm-indent::before {
@@ -3684,7 +3682,7 @@ code {
 
 code[class*=language-],
 pre {
-  line-height: calc(var(--line-height-normal) - 0.2);
+  line-height: var(--line-height-normal);
 }
 
 body .markdown-rendered pre {
