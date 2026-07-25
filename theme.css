@@ -3630,7 +3630,7 @@ code {
 }
 
 .cm-s-obsidian .cm-line.HyperMD-codeblock {
-  line-height: var(--line-height-normal);
+  line-height: calc(var(--line-height-normal) - 0.2);
   color: var(--code-normal) !important;
   border-inline: var(--code-border-width) solid var(--code-border-color);
   border-radius: 0 !important;
@@ -3682,7 +3682,7 @@ code {
 
 code[class*=language-],
 pre {
-  line-height: var(--line-height-normal);
+  line-height: calc(var(--line-height-normal) - 0.2);
 }
 
 body .markdown-rendered pre {
