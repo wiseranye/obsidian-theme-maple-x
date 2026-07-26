@@ -74,6 +74,7 @@
   }
 
   &:not(.is-grabbing):not(.is-fullscreen).is-hidden-frameless
+    :is(.mod-left-split, .mod-right-split)
     .mod-top
     .workspace-tab-header-container {
     -webkit-app-region: no-drag;
